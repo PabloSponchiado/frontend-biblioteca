@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca SENAI - Cadastro Livros</title>
+    <link rel="stylesheet" href="../../css/estilo.css" />
+    <link rel="stylesheet" href="../../css/cadastro.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <nav>
+        <a href="/index.html">INÍCIO</a>
+        <a href="/pages/Aluno/lista-aluno.html">ALUNO</a>
+        <a href="/pages/Livro/lista-livro.html">LIVRO</a>
+        <a href="/pages/Emprestimo/lista-emprestimo.html">EMPRESTIMO</a>
+      </nav>
+    </header>
+
+    <main class="conteudo-principal">
+      <div class="ctn-titulo">
+        <h1>CADASTRO LIVRO</h1>
+      </div>
+
+      <div class="div-formulario">
+        <form class="form-cadastro" action="" method="post">
+          <div class="campo-formulario">
+            <label for="titulo">titulo</label>
+            <input
+              id="titulo"
+              name="titulo"
+              type="text"
+              placeholder="Insira o titulo do livro"
+              required
+            />
+          </div>
+
+          <div class="campo-formulario">
+            <label for="autor">autor</label>
+            <input
+              id="autor"
+              name="autor"
+              type="text"
+              placeholder="Insira o autor do livro"
+              required
+            />
+          </div>
+
+          <div class="campo-formulario">
+            <label for="editora">editora</label>
+            <input
+              id="editora"
+              name="editora"
+              type="text"
+              placeholder="Insira o editora do livro"
+              required
+            />
+          </div>
+
+          <div class="campo-formulario">
+            <label for="ano publicacao">ano publicacao</label>
+            <input
+              id="ano publicacao"
+              name="ano publicacao"
+              type="number"
+              placeholder="Insira o de ano publicação do livro "
+              required
+            />
+          </div>
+
+          <div class="campo-formulario">
+            <label for="isbn">isbn</label>
+            <input
+              id="isbn"
+              name="isbn"
+              type="number"
+              placeholder="Insira o isbn do livro "
+              required
+            />
+          </div>
+
+          <div class="campo-formulario">
+            <label for="quantidade total">quantidade total</label>
+            <input
+              id="quantidade total"
+              name="quantidade total"
+              type="number"
+              placeholder="Insira a quantidade total do livro "
+              required
+            />
+          </div>
+
+          <div class="campo-formulario">
+            <label for="quantidade disponivel">quantidade disponivel</label>
+            <input
+              id="quantidade disponivel"
+              name="quantidade disponivel"
+              type="number"
+              placeholder="Insira a quantidade disponivel do livro "
+              required
+            />
+          </div>
+
+          <div class="campo-formulario">
+            <label for="valor aquisicao">valor aquisicao</label>
+            <input
+              id="valor aquisicao"
+              name="valor aquisicao"
+              type="number"
+              placeholder="Insira o valor de aquisicao do livro "
+              required
+            />
+          </div>
+
+          <button class="btn-cadastrar" type="submit">CADASTRAR</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca SENAI - Lista de Livros</title>
+    <link rel="stylesheet" href="../../css/estilo.css" />
+    <link rel="stylesheet" href="../../css/listagens.css" />
+  </head>
+
+  <body onload="montarTabelaLivros()">
+    <header class="cabecalho">
+      <nav>
+        <a href="/index.html">INÍCIO</a>
+        <a href="/pages/Aluno/lista-aluno.html">ALUNO</a>
+        <a href="/pages/Livro/lista-livro.html">LIVRO</a>
+        <a href="/pages/Emprestimo/lista-emprestimo.html">EMPRESTIMO</a>
+      </nav>
+    </header>
+    <main class="conteudo-principal">
+      <div class="div-btn-novo">
+        <a href="/pages/Livro/cadastro-livro.html">NOVO LIVRO</a>
+      </div>
+      <div class="div-titulo-tabela">
+        <h1>LIVROS</h1>
+      </div>
+      <div class="div-vazio"></div>
+      <div class="div-tabela">
+        <table class="tabela">
+          <thead>
+            <tr>
+              <th>ID LIVRO</th>
+              <th>TITULO</th>
+              <th>AUTOR</th>
+              <th>EDITORA</th>
+              <th>ANO DE PUBLICAÇÃO</th>
+              <th>ISBN</th>
+              <th>QUANTIDADE TOTAL</th>
+              <th>QUANTIDADE DISPONÍVEL</th>
+              <th>VALOR AQUISIÇÃO</th>
+              <th>STATUS EMPRESTIMO</th>
+              <th>AÇÕES</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </main>
+
+    <script src="/js/livro.js"></script>
+  </body>
+</html>

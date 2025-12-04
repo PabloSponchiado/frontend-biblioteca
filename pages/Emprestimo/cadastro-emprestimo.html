@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca SENAI - Cadastro Emprestimo</title>
+    <link rel="stylesheet" href="../../css/estilo.css" />
+    <link rel="stylesheet" href="../../css/cadastro.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <nav>
+        <a href="/index.html">INÍCIO</a>
+        <a href="/pages/Aluno/lista-aluno.html">ALUNO</a>
+        <a href="/pages/Livro/lista-livro.html">LIVRO</a>
+        <a href="/pages/Emprestimo/lista-emprestimo.html">EMPRESTIMOS</a>
+      </nav>
+    </header>
+
+    <main class="conteudo-principal">
+      <div class="ctn-titulo">
+        <h1>CADASTRO</h1>
+      </div>
+
+      <div class="div-formulario">
+        <form class="form-cadastro" action="" method="post">
+          <div class="campo-formulario">
+            <label for="id livro">ID Livro</label>
+            <input
+              id="id livro"
+              name="id livro"
+              type="number"
+              placeholder="Insira o id do livro"
+              required
+            />
+          </div>
+
+          <div class="campo-formulario">
+            <label for="id aluno">ID Aluno</label>
+            <input
+              id="id aluno"
+              name="id aluno"
+              type="number"
+              placeholder="Insira o id do aluno"
+              required
+            />
+          </div>
+
+          <div class="campo-formulario">
+            <label for="data emprestimo">Data Emprestimo</label>
+            <input
+              id="data emprestimo"
+              name="data emprestimo"
+              type="date"
+              step="1"
+              placeholder="Insira a data do emprestimo"
+              required
+            />
+          </div>
+
+          <div class="campo-formulario">
+            <label for="data devolucao">Data devolucao</label>
+            <input
+              id="data devolucao"
+              name="dataemprestimo"
+              type="date"
+              placeholder="Insira a data de devolução"
+              required
+            />
+          </div>
+
+          <button class="btn-cadastrar" type="submit">CADASTRAR</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
