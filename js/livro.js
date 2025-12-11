@@ -34,7 +34,7 @@ async function montarTabelaLivros() {
 
     tr.innerHTML = `
             <td>${livro.idLivro}</td>
-            <td>${livro.titulo}</td>
+            <td>${livro.tituloLivro}</td>
             <td>${livro.autor}</td>
             <td>${livro.editora}</td>
             <td>${livro.anoPublicacao}</td>

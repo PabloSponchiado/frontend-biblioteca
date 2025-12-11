@@ -34,8 +34,8 @@ async function montarTabelaEmprestimos() {
 
     tr.innerHTML = `
             <td>${emprestimo.idEmprestimo}</td>
-            <td>${emprestimo.idLivro}</td>
-            <td>${emprestimo.idAluno}</td>
+            <td>${emprestimo.tituloLivro}</td>
+            <td>${emprestimo.nomeAluno} ${emprestimo.sobrenomeAluno}</td>
             <td>${emprestimo.dataEmprestimo}</td>
             <td>${emprestimo.dataDevolucao}</td>
             <td>${emprestimo.statusEmprestimo}</td>
